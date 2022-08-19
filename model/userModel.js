@@ -6,5 +6,6 @@ const userSchema = new mongoose.Schema({
     phone: Number,
     role:String
 })
-mongoose.model('users',userSchema);
-module.exports = mongoose.model('users');
+mongoose.model('here',userSchema);
+module.exports = mongoose.model('here');
+// ! collection name of user info data
